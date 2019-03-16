@@ -39,6 +39,12 @@ and are accessed using the var() function (e.g., color: var(--main-color);).
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, .3);
 }
 
+@mixin flexCenterAlign($justify-content){
+  display: flex;
+  align-items: center;
+  justify-content: $justify-content;
+}
+
 
 *{
   margin: 0;
